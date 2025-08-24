@@ -1,7 +1,7 @@
 // Import the mongoose library 
 const mongoose = require('mongoose');
 
-//  Read the MongoDB connection string from environment variables
+// Read the MongoDB connection string from environment variables
 const uri = process.env.MONGODB_URI;
 
 async function connectDatabase() {
